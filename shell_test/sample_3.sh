@@ -1,0 +1,7 @@
+#!/bin/bash
+echo Number of arguments passed is $#
+for arg in $*
+do
+  echo $arg
+done
+
